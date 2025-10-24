@@ -228,10 +228,20 @@ gunicorn app.main:app -k uvicorn.workers.UvicornWorker -b 0.0.0.0:8000
 
 ---
 
+## 🤝 Contribution
+
+We welcome contributions from the community! Whether it's bug fixes, new features, documentation improvements, or suggesting enhancements, please feel free to contribute.
+
+Please read our [Contribution Guidelines](CONTRIBUTION.md) before submitting pull requests or opening issues.
+
+
+---
+
+
 ## 🧑‍💻 Author
 
 **Urvish Bhatt**
-Software Engineer — Python | FastAPI | AI | Agents | R&D Robotics
+Software Engineer — Python | FastAPI | Django | DRF | AI | Agents | R&D Robotics
 
 ---
 
