@@ -19,10 +19,10 @@ This template is designed for developers who want to **start FastAPI projects qu
 FastAPI-Template/
 ├── app/
 │   ├── api/               # API endpoints (routes)
-│   ├── core/              # Config, environment, security, logging, etc.
+│   ├── core/              # Config, environment, database, security, logging, etc.
 │   ├── models/            # SQLModel database models
 │   ├── schemas/           # Pydantic schemas for request/response validation
-│   ├── services/          # CRUD operations and business logic
+│   ├── utilities/          # CRUD operations and utils function logics
 │   ├── main.py            # FastAPI app entry point
 │   └── __init__.py
 ├── alembic/               # Alembic migration files
@@ -49,7 +49,7 @@ Make sure you have:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/FastAPI-Template.git
+git clone https://github.com/Urvish-10/FastAPI-Template.git
 cd FastAPI-Template
 ```
 

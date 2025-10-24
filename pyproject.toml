@@ -3,4 +3,16 @@ name = "fastapi-template"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "alembic>=1.17.0",
+    "fastapi>=0.120.0",
+    "psycopg[binary]>=3.2.11",
+    "pydantic[email]>=2.12.3",
+    "pydantic-settings>=2.11.0",
+    "pyjwt>=2.10.1",
+    "python-jose>=3.5.0",
+    "sqlmodel>=0.0.27",
+    "uvicorn>=0.38.0",
+    "python-multipart>=0.0.20",
+    "passlib[argon2]>=1.7.4",
+]
